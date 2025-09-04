@@ -122,7 +122,15 @@ export default [
 ]
 ```
 
-### 4. Execute o comando na pasta do projeto para atualizar todos imports
+### 4. Execute o ESLint na pasta do projeto
+
+Apenas verificar o código:
+
+```bash
+yarn eslint "src/**/*.{ts,tsx}"
+```
+
+Corrigir o código:
 
 ```bash
 yarn eslint "src/**/*.{ts,tsx}" --fix
